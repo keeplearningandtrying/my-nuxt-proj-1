@@ -1,0 +1,13 @@
+.greetings h1,
+.greetings h3 {
+  text-align: center;
+  color: red;
+}
+
+@media (min-width: 1024px) {
+  .greetings h1,
+  .greetings h3 {
+    color: red;
+    text-align: left;
+  }
+}
